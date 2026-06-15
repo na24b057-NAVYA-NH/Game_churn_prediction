@@ -57,6 +57,7 @@ Decision Tree
 Random Forest
 Extra Trees Classifier
 Gradient Boosting
+
 6. Model Evaluation
 
 Each model was evaluated using:
@@ -72,6 +73,7 @@ Also included:
 
 Confusion matrix visualization
 ROC curve comparison
+
 7. Model Selection
 
 Models were compared based on ROC-AUC and stability across cross-validation. Ensemble models performed better than basic classifiers.
@@ -81,10 +83,12 @@ Models were compared based on ROC-AUC and stability across cross-validation. Ens
 Feature importance was extracted from tree-based models (Random Forest, Gradient Boosting, Extra Trees) to identify key drivers of churn.
 
 **Tech Stack**
+
 Python
 Pandas, NumPy
 Matplotlib, Seaborn
 Scikit-learn
 Statsmodels
+
 **Conclusion**
 This project demonstrates a complete machine learning pipeline from data preprocessing to model evaluation and business insight generation, focused on improving player retention in gaming platforms.
